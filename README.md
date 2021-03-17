@@ -1,2 +1,2 @@
 # cadosanjos.github.io
-GitHub Page for CV
+CV created with GitHub Pages.
