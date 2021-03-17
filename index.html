@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camilla's Page</title>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <meta http-equiv="Content-Type" content="text;html; charset=utf-8">
@@ -12,15 +13,15 @@
 <body>
 
     <main>
-        <section id="display">
+        <section class="intro">
             <div>
-                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQG8HgEnIdFxWA/profile-displayphoto-shrink_800_800/0/1612287177917?e=1618444800&v=beta&t=u2irJvEM5ku-J7jFWcWzt5zkKrcZ6avBTCU7D5-bKkA"
+                <img id="avatar" src="https://media-exp1.licdn.com/dms/image/C4D03AQG8HgEnIdFxWA/profile-displayphoto-shrink_800_800/0/1612287177917?e=1618444800&v=beta&t=u2irJvEM5ku-J7jFWcWzt5zkKrcZ6avBTCU7D5-bKkA"
                     alt="Avatar - Linkedin Profile Picture">
             </div>
 
             <div id="title">
                 <h1>Camilla dos Anjos Daniel</h1>
-                <p><span>Desenvolvedora de sistemas</span>
+                <p id="subtitle"><span>Desenvolvedora de sistemas</span>
                 </p>
             </div>
 
@@ -28,11 +29,11 @@
         <hr>
 
         <div>
-            <h4>Personal Information</h4>
-            <p>
-                Campinas&#8725;SP - Região <br>
+            <h3>Personal Information</h3>
+            <p id="perinfo">
+                &#127758; Campinas&#8725;SP - Região <br>
                 &#128231; caa.dosanjos@gmail.com <br>
-                &phone; +55 11 984634925 <br>
+                &phone; +55 11 98463-4925 <br>
                 &hearts; I.T - Software Developer/DevOps Engineer
             </p>
         </div>
@@ -42,8 +43,7 @@
             <ul>
                 <li><a href="https://www.linkedin.com/in/camilla-daniel" target="_blank">Linkedin Page</a></li>
                 <li><a href="https://github.com/cadosanjos" target="_blank">GitHub Projects</a></li>
-                <li><a href="https://www.youracclaim.com/users/camilla-daniel/badges"
-                        target="_blank">Courses&#8725;Badges</a></li>
+                <li><a href="https://www.youracclaim.com/users/camilla-daniel/badges" target="_blank">Courses&#8725;Badges</a></li>
             </ul>
         </div>
 
@@ -85,7 +85,8 @@
     </main>
 
     <footer>
-        Last update: <time datetime="2021-03-17">Mar 17</time> </time>
+        <div>Last update: <time datetime="2021-03-17">Mar 17</time> </time>
+        </div>
     </footer>
 
 </body>
