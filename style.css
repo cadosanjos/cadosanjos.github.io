@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(241, 205, 232);
+}
+
+#avatar{
+    width: 150px;
+    height: 150px;
+}
+
+.intro{
+    height: 250px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#title{
+    text-align: center;
+    margin-left: 3em;
+}
+
+#subtitle{
+    color: rgb(164, 108, 216);
+}
+
+#perinfo{
+    margin-left: 1.5em;
+}
+
+main{
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    font-size: 0.75em;
+}
